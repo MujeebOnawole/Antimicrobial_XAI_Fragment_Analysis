@@ -210,9 +210,7 @@ If you use this data or methodology, please cite:
 >
 > Abdulmujeeb T. Onawole<sup>1</sup>, Mark A.T. Blaskovich<sup>1,2</sup> and Johannes Zuegg<sup>1*</sup>
 >
-> <sup>1</sup>Centre for Superbug Solutions, Institute for Molecular Bioscience, The University of Queensland, Brisbane, Queensland, Australia.
->
-> <sup>2</sup>ARC Centre for Agricultural and Environmental Solutions to Antimicrobial Resistance, Institute for Molecular Bioscience, The University of Queensland, Brisbane, Queensland, Australia.
+Journal: TBD
 
 ## License
 
