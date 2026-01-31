@@ -1,0 +1,31 @@
+Comparison,Property,Triple_Mean,Triple_SD,Triple_N,Other_Mean,Other_SD,Other_N,Cohens_d,Effect_Size,Direction
+TRIPLE vs SA-only,MW,215.50,98.29,2803,268.20,84.99,2332,-0.57,medium,Triple smaller
+TRIPLE vs SA-only,RotBonds,2.72,2.46,2803,3.95,3.03,2332,-0.45,small,Triple more rigid
+TRIPLE vs SA-only,Rings,2.45,1.47,2803,3.12,1.31,2332,-0.48,small,Triple fewer rings
+TRIPLE vs SA-only,Fsp3,0.28,0.29,2803,0.37,0.26,2332,-0.34,small,Triple more aromatic
+TRIPLE vs EC-only,MW,215.50,98.29,2803,256.91,81.94,537,-0.43,small,Triple smaller
+TRIPLE vs EC-only,TPSA,31.63,21.59,2803,42.17,23.47,537,-0.48,small,Triple less polar
+TRIPLE vs EC-only,HBD,0.79,0.89,2803,1.28,1.03,537,-0.54,medium,Triple fewer HBD
+TRIPLE vs EC-only,HBA,2.68,1.79,2803,3.71,1.80,537,-0.58,medium,Triple fewer HBA
+TRIPLE vs EC-only,RotBonds,2.72,2.46,2803,3.94,2.67,537,-0.49,small,Triple more rigid
+TRIPLE vs CA-only,MW,215.50,98.29,2803,260.53,80.90,1234,-0.48,small,Triple smaller
+TRIPLE vs CA-only,HBA,2.68,1.79,2803,3.62,2.19,1234,-0.49,small,Triple fewer HBA
+TRIPLE vs CA-only,RotBonds,2.72,2.46,2803,4.17,2.71,1234,-0.57,medium,Triple more rigid
+TRIPLE vs CA-only,Rings,2.45,1.47,2803,3.03,1.17,1234,-0.42,small,Triple fewer rings
+TRIPLE vs CA-only,Fsp3,0.28,0.29,2803,0.40,0.30,1234,-0.43,small,Triple more aromatic
+TRIPLE vs SA+EC,MW,215.50,98.29,2803,268.94,87.98,5650,-0.58,medium,Triple smaller
+TRIPLE vs SA+EC,TPSA,31.63,21.59,2803,40.07,23.08,5650,-0.37,small,Triple less polar
+TRIPLE vs SA+EC,HBD,0.79,0.89,2803,1.21,1.03,5650,-0.43,small,Triple fewer HBD
+TRIPLE vs SA+EC,HBA,2.68,1.79,2803,3.73,1.89,5650,-0.57,medium,Triple fewer HBA
+TRIPLE vs SA+EC,RotBonds,2.72,2.46,2803,4.06,2.73,5650,-0.51,medium,Triple more rigid
+TRIPLE vs SA+EC,Rings,2.45,1.47,2803,3.15,1.39,5650,-0.50,medium,Triple fewer rings
+TRIPLE vs SA+EC,Fsp3,0.28,0.29,2803,0.37,0.25,5650,-0.33,small,Triple more aromatic
+TRIPLE vs SA+CA,MW,215.50,98.29,2803,295.84,111.02,289,-0.81,large,Triple smaller
+TRIPLE vs SA+CA,LogP,2.57,1.76,2803,4.36,1.84,289,-1.01,large,Triple less lipophilic
+TRIPLE vs SA+CA,HBA,2.68,1.79,2803,2.15,1.60,289,0.30,small,Triple more HBA
+TRIPLE vs SA+CA,RotBonds,2.72,2.46,2803,5.26,6.08,289,-0.85,large,Triple more rigid
+TRIPLE vs SA+CA,Rings,2.45,1.47,2803,3.32,1.44,289,-0.59,medium,Triple fewer rings
+TRIPLE vs EC+CA,MW,215.50,98.29,2803,256.76,74.24,148,-0.42,small,Triple smaller
+TRIPLE vs EC+CA,TPSA,31.63,21.59,2803,40.77,16.18,148,-0.43,small,Triple less polar
+TRIPLE vs EC+CA,HBA,2.68,1.79,2803,3.65,1.43,148,-0.55,medium,Triple fewer HBA
+TRIPLE vs EC+CA,RotBonds,2.72,2.46,2803,3.81,2.75,148,-0.44,small,Triple more rigid

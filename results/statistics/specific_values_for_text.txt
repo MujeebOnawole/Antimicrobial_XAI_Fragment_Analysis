@@ -1,0 +1,28 @@
+SPECIFIC VALUES FOR MANUSCRIPT TEXT
+============================================================
+
+S. aureus Positive Fragments (N = 2,332):
+  LogP: 3.00 ± 1.61
+  TPSA: 35.1 ± 21.7 A^2
+  MW: 268.2 ± 85.0 Da
+  HBD: 1.05 ± 1.10
+
+E. coli Positive Fragments (N = 537):
+  LogP: 2.33 ± 1.68
+  TPSA: 42.2 ± 23.5 A^2
+  HBD: 1.33 ± 1.10
+
+C. albicans Positive Fragments (N = 1,234):
+  LogP: 2.69 ± 1.48
+  TPSA: 38.0 ± 23.8 A^2
+  HBD: 0.70 ± 0.89
+
+KEY EFFECT SIZES (Cohen's d):
+  LogP (SA vs EC): d = 0.415
+  TPSA (SA vs EC): d = -0.321
+  HBD (SA vs CA): d = 0.344
+  HBD (EC vs CA): d = 0.665
+
+FOLD DIFFERENCES:
+  LogP (SA/EC): 1.29x
+  TPSA (SA/EC): 0.83x

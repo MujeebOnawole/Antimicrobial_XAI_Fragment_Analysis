@@ -1,0 +1,19 @@
+Compound_ID,Name,Pathogen,SELECT_Rule,Property,Provided,Calculated,Difference,Pct_Diff
+CHEMBL4548986,S. aureus exemplar,SA,SELECT-G+,LogP,3.27,3.27,0.0,0.0
+CHEMBL4548986,S. aureus exemplar,SA,SELECT-G+,MW,305.3,305.3,0.0,0.0
+CHEMBL4548986,S. aureus exemplar,SA,SELECT-G+,TPSA,51.6,51.6,0.0,0.0
+CHEMBL4548986,S. aureus exemplar,SA,SELECT-G+,HBD,0.0,0.0,0.0,0.0
+CHEMBL4548986,S. aureus exemplar,SA,SELECT-G+,HBA,4.0,4.0,0.0,0.0
+CHEMBL4548986,S. aureus exemplar,SA,SELECT-G+,Rings,4.0,5.0,1.0,25.0
+CHEMBL4203270,E. coli exemplar,EC,SELECT-G-,LogP,1.93,1.93,0.0,0.0
+CHEMBL4203270,E. coli exemplar,EC,SELECT-G-,MW,383.4,383.4,0.0,0.0
+CHEMBL4203270,E. coli exemplar,EC,SELECT-G-,TPSA,107.8,107.8,0.0,0.0
+CHEMBL4203270,E. coli exemplar,EC,SELECT-G-,HBD,3.0,3.0,0.0,0.0
+CHEMBL4203270,E. coli exemplar,EC,SELECT-G-,HBA,8.0,6.0,2.0,25.0
+CHEMBL4203270,E. coli exemplar,EC,SELECT-G-,Rings,4.0,4.0,0.0,0.0
+CS000245342,C. albicans exemplar,CA,SELECT-CA,LogP,2.93,2.93,0.0,0.0
+CS000245342,C. albicans exemplar,CA,SELECT-CA,MW,261.4,261.3,0.1,0.0
+CS000245342,C. albicans exemplar,CA,SELECT-CA,TPSA,34.2,34.2,0.0,0.0
+CS000245342,C. albicans exemplar,CA,SELECT-CA,HBD,0.0,0.0,0.0,0.0
+CS000245342,C. albicans exemplar,CA,SELECT-CA,HBA,4.0,5.0,1.0,25.0
+CS000245342,C. albicans exemplar,CA,SELECT-CA,Rings,3.0,3.0,0.0,0.0

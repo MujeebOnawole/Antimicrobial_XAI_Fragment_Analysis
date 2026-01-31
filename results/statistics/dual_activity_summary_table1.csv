@@ -1,0 +1,7 @@
+Dual Combination,Pathogen Classes,Excludes,Significant Feature,Effect Size,Fragment SMILES,Fragment Type,Dual Activity Rate,Compounds Tested,Biological Context
+S.aureus + C.albicans,Gram+ + Fungi,E.coli,Lipinski Violations,1.119,C1=CC=[N+](CCCCCC2CCCCC2)C=C1,Scaffold,100.0%,71,Fungi vs Gram- (both with Gram+)
+S.aureus + C.albicans,Gram+ + Fungi,E.coli,Lipinski Violations,1.119,C1=CC=C(C=C1)[N+]CCCCCC1CCCCC1,Scaffold,100.0%,71,Fungi vs Gram- (both with Gram+)
+S.aureus + E.coli,Gram+ + Gram-,C.albicans,Num Hba,0.846,C1=CC2=C(N=C1)NC=CC2,Scaffold,97.6%,622,Fungi vs Gram- (both with Gram+)
+S.aureus + E.coli,Gram+ + Gram-,C.albicans,Num Hba,0.846,N-C-CF,Substitutent,100.0%,469,Fungi vs Gram- (both with Gram+)
+C.albicans + E.coli,Fungi + Gram-,S.aureus,Num Heteroatoms,0.980,C1NC=C/C1=N/NC1=NC=CS1,Scaffold,100.0%,46,Gram+ vs Gram- (both with Fungi)
+C.albicans + E.coli,Fungi + Gram-,S.aureus,Num Heteroatoms,0.980,C1NC2=CC=CC=C2/C1=N/NC1=NC=CS1,Scaffold,100.0%,46,Gram+ vs Gram- (both with Fungi)

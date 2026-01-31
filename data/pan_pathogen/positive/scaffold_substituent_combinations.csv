@@ -1,0 +1,51 @@
+scaffold_id,scaffold_smiles,scaffold_mechanism,substituent_id,substituent_smiles,substituent_mechanism,predicted_score,predicted_drug_likeness,mechanism_compatibility,design_rationale
+1779,C1CC(C2=CC=CC=C2)NC(C2=CC=CC=C2)C1,Membrane_Disruption,1084,C-C(=O)-O,Cell_Wall_Synthesis,10.0,7.284050000000001,False,Multi-target: membrane disruption + cell wall synthesis
+1779,C1CC(C2=CC=CC=C2)NC(C2=CC=CC=C2)C1,Membrane_Disruption,5221,O=C-N-S,Enzyme_Inhibition,10.0,7.5217833333333335,False,Multi-target: membrane disruption + enzyme inhibition
+1779,C1CC(C2=CC=CC=C2)NC(C2=CC=CC=C2)C1,Membrane_Disruption,1469,CC(C1=CC=CC=C1)=N,Membrane_Disruption,10.0,7.9505,True,Synergistic membrane disruption activity
+1779,C1CC(C2=CC=CC=C2)NC(C2=CC=CC=C2)C1,Membrane_Disruption,3828,COC1=CC=C2N=C(C)C=CC2=C1,DNA/RNA_Interaction,10.0,8.367166666666668,False,Multi-target: membrane disruption + dna/rna interaction
+1779,C1CC(C2=CC=CC=C2)NC(C2=CC=CC=C2)C1,Membrane_Disruption,2421,OCCCO,Cell_Wall_Synthesis,10.0,7.350895833333334,False,Multi-target: membrane disruption + cell wall synthesis
+1779,C1CC(C2=CC=CC=C2)NC(C2=CC=CC=C2)C1,Membrane_Disruption,6293,CSC1=CC=C(C)C=C1,Membrane_Disruption,10.0,7.117166666666668,True,Synergistic membrane disruption activity
+1779,C1CC(C2=CC=CC=C2)NC(C2=CC=CC=C2)C1,Membrane_Disruption,1432,C=N/NC(=N)N,Enzyme_Inhibition,10.0,7.725908333333333,False,Multi-target: membrane disruption + enzyme inhibition
+1779,C1CC(C2=CC=CC=C2)NC(C2=CC=CC=C2)C1,Membrane_Disruption,86,C[N+]1=CC=CC=C1,Cell_Wall_Synthesis,10.0,6.7407375,False,Multi-target: membrane disruption + cell wall synthesis
+1779,C1CC(C2=CC=CC=C2)NC(C2=CC=CC=C2)C1,Membrane_Disruption,1152,C-C(C(F)(F)F)-N,Enzyme_Inhibition,10.0,8.2005,False,Multi-target: membrane disruption + enzyme inhibition
+1779,C1CC(C2=CC=CC=C2)NC(C2=CC=CC=C2)C1,Membrane_Disruption,25878,CC-N-C-CCO,Cell_Wall_Synthesis,10.0,7.867166666666668,False,Multi-target: membrane disruption + cell wall synthesis
+1779,C1CC(C2=CC=CC=C2)NC(C2=CC=CC=C2)C1,Membrane_Disruption,21144,C-C-CC=O,Cell_Wall_Synthesis,10.0,6.618779166666668,False,Multi-target: membrane disruption + cell wall synthesis
+1779,C1CC(C2=CC=CC=C2)NC(C2=CC=CC=C2)C1,Membrane_Disruption,18034,C-C(C(=O)OCC)-C=O,Enzyme_Inhibition,10.0,8.033833333333334,False,Multi-target: membrane disruption + enzyme inhibition
+1779,C1CC(C2=CC=CC=C2)NC(C2=CC=CC=C2)C1,Membrane_Disruption,17089,O=[N+]([O-])C1=CC=CO1,Enzyme_Inhibition,10.0,8.367166666666668,False,Multi-target: membrane disruption + enzyme inhibition
+1779,C1CC(C2=CC=CC=C2)NC(C2=CC=CC=C2)C1,Membrane_Disruption,24325,C1=NCCCN1,Cell_Wall_Synthesis,10.0,7.384341666666668,False,Multi-target: membrane disruption + cell wall synthesis
+1779,C1CC(C2=CC=CC=C2)NC(C2=CC=CC=C2)C1,Membrane_Disruption,9087,COC1=CC=C(Cl)C=C1,Membrane_Disruption,10.0,7.437666666666667,True,Synergistic membrane disruption activity
+1779,C1CC(C2=CC=CC=C2)NC(C2=CC=CC=C2)C1,Membrane_Disruption,25883,CC1=C(CO)C=NC(C)=C1O,Enzyme_Inhibition,10.0,8.283833333333334,False,Multi-target: membrane disruption + enzyme inhibition
+1779,C1CC(C2=CC=CC=C2)NC(C2=CC=CC=C2)C1,Membrane_Disruption,10334,C-C(Cl)-C-CCl,Cell_Wall_Synthesis,10.0,7.033833333333334,False,Multi-target: membrane disruption + cell wall synthesis
+1779,C1CC(C2=CC=CC=C2)NC(C2=CC=CC=C2)C1,Membrane_Disruption,937,O=[N+]([O-])C1=CC=CS1,Enzyme_Inhibition,10.0,8.367166666666668,False,Multi-target: membrane disruption + enzyme inhibition
+1779,C1CC(C2=CC=CC=C2)NC(C2=CC=CC=C2)C1,Membrane_Disruption,23511,CC1=NOC2=CC=CC=C12,DNA/RNA_Interaction,10.0,8.367166666666668,False,Multi-target: membrane disruption + dna/rna interaction
+1779,C1CC(C2=CC=CC=C2)NC(C2=CC=CC=C2)C1,Membrane_Disruption,13218,CN(C)C1=NCN=C(N)N1,Enzyme_Inhibition,10.0,7.750333333333334,False,Multi-target: membrane disruption + enzyme inhibition
+1934,C1CN(CCC2=CC=CC=C2)CS1,Membrane_Disruption,1084,C-C(=O)-O,Cell_Wall_Synthesis,10.0,7.887550000000001,False,Multi-target: membrane disruption + cell wall synthesis
+1934,C1CN(CCC2=CC=CC=C2)CS1,Membrane_Disruption,5221,O=C-N-S,Enzyme_Inhibition,10.0,8.125283333333334,False,Multi-target: membrane disruption + enzyme inhibition
+1934,C1CN(CCC2=CC=CC=C2)CS1,Membrane_Disruption,1469,CC(C1=CC=CC=C1)=N,Membrane_Disruption,10.0,8.554,True,Synergistic membrane disruption activity
+1934,C1CN(CCC2=CC=CC=C2)CS1,Membrane_Disruption,3828,COC1=CC=C2N=C(C)C=CC2=C1,DNA/RNA_Interaction,10.0,8.970666666666666,False,Multi-target: membrane disruption + dna/rna interaction
+1934,C1CN(CCC2=CC=CC=C2)CS1,Membrane_Disruption,2421,OCCCO,Cell_Wall_Synthesis,10.0,7.954395833333335,False,Multi-target: membrane disruption + cell wall synthesis
+1934,C1CN(CCC2=CC=CC=C2)CS1,Membrane_Disruption,6293,CSC1=CC=C(C)C=C1,Membrane_Disruption,10.0,7.720666666666666,True,Synergistic membrane disruption activity
+1934,C1CN(CCC2=CC=CC=C2)CS1,Membrane_Disruption,1432,C=N/NC(=N)N,Enzyme_Inhibition,10.0,8.329408333333333,False,Multi-target: membrane disruption + enzyme inhibition
+1934,C1CN(CCC2=CC=CC=C2)CS1,Membrane_Disruption,86,C[N+]1=CC=CC=C1,Cell_Wall_Synthesis,10.0,7.3442375,False,Multi-target: membrane disruption + cell wall synthesis
+1934,C1CN(CCC2=CC=CC=C2)CS1,Membrane_Disruption,1152,C-C(C(F)(F)F)-N,Enzyme_Inhibition,10.0,8.804,False,Multi-target: membrane disruption + enzyme inhibition
+1934,C1CN(CCC2=CC=CC=C2)CS1,Membrane_Disruption,25878,CC-N-C-CCO,Cell_Wall_Synthesis,10.0,8.470666666666666,False,Multi-target: membrane disruption + cell wall synthesis
+1934,C1CN(CCC2=CC=CC=C2)CS1,Membrane_Disruption,21144,C-C-CC=O,Cell_Wall_Synthesis,10.0,7.222279166666667,False,Multi-target: membrane disruption + cell wall synthesis
+1934,C1CN(CCC2=CC=CC=C2)CS1,Membrane_Disruption,18034,C-C(C(=O)OCC)-C=O,Enzyme_Inhibition,10.0,8.637333333333332,False,Multi-target: membrane disruption + enzyme inhibition
+1934,C1CN(CCC2=CC=CC=C2)CS1,Membrane_Disruption,17089,O=[N+]([O-])C1=CC=CO1,Enzyme_Inhibition,10.0,8.970666666666666,False,Multi-target: membrane disruption + enzyme inhibition
+1934,C1CN(CCC2=CC=CC=C2)CS1,Membrane_Disruption,24325,C1=NCCCN1,Cell_Wall_Synthesis,10.0,7.987841666666666,False,Multi-target: membrane disruption + cell wall synthesis
+1934,C1CN(CCC2=CC=CC=C2)CS1,Membrane_Disruption,9087,COC1=CC=C(Cl)C=C1,Membrane_Disruption,10.0,8.041166666666667,True,Synergistic membrane disruption activity
+1934,C1CN(CCC2=CC=CC=C2)CS1,Membrane_Disruption,25883,CC1=C(CO)C=NC(C)=C1O,Enzyme_Inhibition,10.0,8.887333333333334,False,Multi-target: membrane disruption + enzyme inhibition
+1934,C1CN(CCC2=CC=CC=C2)CS1,Membrane_Disruption,10334,C-C(Cl)-C-CCl,Cell_Wall_Synthesis,10.0,7.637333333333334,False,Multi-target: membrane disruption + cell wall synthesis
+1934,C1CN(CCC2=CC=CC=C2)CS1,Membrane_Disruption,937,O=[N+]([O-])C1=CC=CS1,Enzyme_Inhibition,10.0,8.970666666666666,False,Multi-target: membrane disruption + enzyme inhibition
+1934,C1CN(CCC2=CC=CC=C2)CS1,Membrane_Disruption,23511,CC1=NOC2=CC=CC=C12,DNA/RNA_Interaction,10.0,8.970666666666666,False,Multi-target: membrane disruption + dna/rna interaction
+1934,C1CN(CCC2=CC=CC=C2)CS1,Membrane_Disruption,13218,CN(C)C1=NCN=C(N)N1,Enzyme_Inhibition,10.0,8.353833333333334,False,Multi-target: membrane disruption + enzyme inhibition
+2450,C(N1C=CN=N1)C1=CC=CC=C1,DNA/RNA_Interaction,1084,C-C(=O)-O,Cell_Wall_Synthesis,10.0,8.916883333333335,False,Multi-target: dna/rna interaction + cell wall synthesis
+2450,C(N1C=CN=N1)C1=CC=CC=C1,DNA/RNA_Interaction,5221,O=C-N-S,Enzyme_Inhibition,10.0,9.154616666666666,False,Multi-target: dna/rna interaction + enzyme inhibition
+2450,C(N1C=CN=N1)C1=CC=CC=C1,DNA/RNA_Interaction,1469,CC(C1=CC=CC=C1)=N,Membrane_Disruption,10.0,9.583333333333332,False,Multi-target: dna/rna interaction + membrane disruption
+2450,C(N1C=CN=N1)C1=CC=CC=C1,DNA/RNA_Interaction,3828,COC1=CC=C2N=C(C)C=CC2=C1,DNA/RNA_Interaction,10.0,10.0,True,Synergistic dna/rna interaction activity
+2450,C(N1C=CN=N1)C1=CC=CC=C1,DNA/RNA_Interaction,2421,OCCCO,Cell_Wall_Synthesis,10.0,8.983729166666667,False,Multi-target: dna/rna interaction + cell wall synthesis
+2450,C(N1C=CN=N1)C1=CC=CC=C1,DNA/RNA_Interaction,6293,CSC1=CC=C(C)C=C1,Membrane_Disruption,10.0,8.75,False,Multi-target: dna/rna interaction + membrane disruption
+2450,C(N1C=CN=N1)C1=CC=CC=C1,DNA/RNA_Interaction,1432,C=N/NC(=N)N,Enzyme_Inhibition,10.0,9.358741666666667,False,Multi-target: dna/rna interaction + enzyme inhibition
+2450,C(N1C=CN=N1)C1=CC=CC=C1,DNA/RNA_Interaction,86,C[N+]1=CC=CC=C1,Cell_Wall_Synthesis,10.0,8.373570833333332,False,Multi-target: dna/rna interaction + cell wall synthesis
+2450,C(N1C=CN=N1)C1=CC=CC=C1,DNA/RNA_Interaction,1152,C-C(C(F)(F)F)-N,Enzyme_Inhibition,10.0,9.833333333333332,False,Multi-target: dna/rna interaction + enzyme inhibition
+2450,C(N1C=CN=N1)C1=CC=CC=C1,DNA/RNA_Interaction,25878,CC-N-C-CCO,Cell_Wall_Synthesis,10.0,9.5,False,Multi-target: dna/rna interaction + cell wall synthesis

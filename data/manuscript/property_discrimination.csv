@@ -1,0 +1,5 @@
+property_focus,pathogen_A,pathogen_B,fragment_id_A,fragment_smiles_A,logp_A,tpsa_A,hbd_A,fragment_id_B,fragment_smiles_B,logp_B,tpsa_B,hbd_B,discrimination_mechanism
+LogP_high_vs_low,SA,EC,3490,C1C[C@H]2CCCCC2C2=C1C=CC=C2,3.91,0.0,0,204986,C[C@@H](O)[C@@H](NC(=O)N1CCNCC1)C(=O)NO,-2.14,113.9,5,Lipophilicity enables S. aureus membrane penetration vs hydrophilicity for E. coli transport
+TPSA_low_vs_high,SA,EC,3490,C1C[C@H]2CCCCC2C2=C1C=CC=C2,3.91,0.0,0,207139,C=C1/C(=O)N2[C@@H](C(=O)O)[C@](C)(COC(=O)CC3=CC=C(O)C(O)=C3)S(=O)(=O)[C@H]12,-0.45,158.5,3,Non-polar surface for S. aureus vs high polarity for E. coli permeation
+HBD_low_vs_high,SA,EC,6105,C1OC[C@@H]2COC3=CC=CC=C3N12,1.24,21.7,0,204986,C[C@@H](O)[C@@H](NC(=O)N1CCNCC1)C(=O)NO,-2.14,113.9,5,Minimal H-bonding for S. aureus vs extensive H-bonding for E. coli interaction
+MW_fragment_vs_complex,Simple,Complex,1153,C1=CNNC1,-0.15,29.6,2,207139,C=C1/C(=O)N2[C@@H](C(=O)O)[C@](C)(COC(=O)CC3=CC=C(O)C(O)=C3)S(=O)(=O)[C@H]12,-0.45,158.5,3,Simple core vs complex substituented framework for different binding modes

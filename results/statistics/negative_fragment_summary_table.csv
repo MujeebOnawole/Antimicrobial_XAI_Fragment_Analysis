@@ -1,0 +1,10 @@
+Pathogen,Feature to AVOID,Effect Size,Problematic Fragment,Fragment Type,Negative Reliability,Inactivity Rate,Example Problem Compound,Problem Compound SMILES,Negative Attribution
+SA (Gram+),Num Saturated Rings,0.502,CC(=O)NCN1C=C(C2=CC=CC=C2)C(=O)O1,Substituent,3.834,87.8%,CHEMBL189442,CC(=O)NCN1C=C(C2=CC=C(C3=CCN(C(=O)OC(C)(C)C)CC3)C=...,-0.339
+SA (Gram+),Num Saturated Rings,0.502,CC(=O)NCN1C=CC(=O)O1,Substituent,3.675,72.6%,CHEMBL183258,CC(=O)NCN1C=C(C2=CC(C(F)(F)F)=CC(C(F)(F)F)=C2)C(=O...,-0.381
+SA (Gram+),Num Saturated Rings,0.502,C1NC[C@H]2CNO[C@@H]12,Scaffold,3.501,100.0%,CHEMBL387485,CN1C(=O)[C@@H]2[C@@H](ON(C)[C@H]2C2=CC=C([N+](=O)[...,-0.754
+EC (Gram-),Num Aliphatic Rings,0.564,C1OCC(C2=CC=CC=C2)=C1CNCC1=CC=CC=C1,Scaffold,3.258,100.0%,CHEMBL5417218,C=C1OC(=O)C(CNC(=O)C2=CC=C(C)C=C2)=C1C1=CC=CC=C1Br,-0.732
+EC (Gram-),Num Aliphatic Rings,0.564,C1CCCC2=C1C(C1=CC=CC=C1)C1=C(CCCC1)O2,Scaffold,3.258,100.0%,CHEMBL5396914,O=C1CCCC2=C1C(C1=CC=CC(O)=C1)C1=C(CCCC1=O)O2,-0.730
+EC (Gram-),Num Aliphatic Rings,0.564,C(CSC1=NC2=CC=CC=C2CN1)O[C@@H]1CCCCC2CCC[C@H]2C1,Scaffold,3.135,100.0%,CHEMBL5432294,C=C[C@]1(C)C[C@@H](OC(=O)CSC2=NC3=CC=CC([N+](=O)[O...,-0.697
+CA (Fungi),Num Hba,0.556,C([N-]SOC1=CC=CC=C1)NC1=NC=CC=N1,Scaffold,4.007,100.0%,CHEMBL4515297,COC(=O)C1=CC=CC=C1OS(=O)(=O)[N-]C(=O)NC1=NC(C)=CC(...,-0.762
+CA (Fungi),Num Hba,0.556,C1=CC=C(CC(CN2C=NC=N2)C2=CC=CC=C2)C=C1,Scaffold,3.775,100.0%,CHEMBL418706,CC(O)(C1=CC=C(F)C=C1)C(O)(CN1C=NC=N1)C1=CC=C(Cl)C=...,-0.762
+CA (Fungi),Num Hba,0.556,C(CSC1=NN=NN1)N/N=C/C1=CC=CC=C1,Scaffold,3.466,100.0%,CHEMBL2204116,CN1N=NN=C1SCC(=O)N/N=C/C1=CC=CC=C1Br,-0.762

@@ -1,0 +1,90 @@
+{
+  "property_ranges": {
+    "molecular_weight": {
+      "min": 15.999,
+      "max": 548.7300000000001,
+      "mean": 234.94283080040526,
+      "median": 230.05749999999998,
+      "p25": 167.234,
+      "p75": 293.4140000000001,
+      "optimal_range": "167.2 - 293.4"
+    },
+    "logp": {
+      "min": -1.5136,
+      "max": 9.2483,
+      "mean": 2.6854035663627167,
+      "median": 2.642010000000001,
+      "p25": 1.5457,
+      "p75": 3.755700000000002,
+      "optimal_range": "1.5 - 3.8"
+    },
+    "tpsa": {
+      "min": 0.0,
+      "max": 112.22000000000001,
+      "mean": 35.854554204660595,
+      "median": 34.745000000000005,
+      "p25": 22.75,
+      "p75": 48.45,
+      "optimal_range": "22.8 - 48.5"
+    },
+    "num_aromatic_rings": {
+      "min": "0",
+      "max": "7",
+      "mean": 1.9812563323201622,
+      "median": 2.0,
+      "p25": 1.0,
+      "p75": 3.0,
+      "optimal_range": "1.0 - 3.0"
+    },
+    "num_heteroatoms": {
+      "min": "0",
+      "max": "9",
+      "mean": 3.4508611955420467,
+      "median": 3.0,
+      "p25": 2.0,
+      "p75": 4.0,
+      "optimal_range": "2.0 - 4.0"
+    }
+  },
+  "functional_group_preferences": {
+    "hydroxyl_groups": {
+      "frequency": 0.030395136778115502,
+      "avg_count": 0.03596757852077001,
+      "max_beneficial": 0.0
+    },
+    "amine_groups": {
+      "frequency": 0.8951367781155015,
+      "avg_count": 2.50709219858156,
+      "max_beneficial": 5.0
+    },
+    "halogen_groups": {
+      "frequency": 0.05977710233029382,
+      "avg_count": 0.08966565349544073,
+      "max_beneficial": 0.0
+    },
+    "aromatic_carbocycles": {
+      "frequency": 0.8029381965552178,
+      "avg_count": 1.2776089159067883,
+      "max_beneficial": 2.0
+    }
+  },
+  "mechanism_preferences": {
+    "DNA/RNA_Interaction": 0.5916919959473151,
+    "Enzyme_Inhibition": 0.15501519756838905,
+    "Membrane_Disruption": 0.1413373860182371,
+    "Cell_Wall_Synthesis": 0.11195542046605876
+  },
+  "fragment_performance": {
+    "scaffold": {
+      "count": 1552,
+      "avg_activity": 99.4036662371134,
+      "avg_broad_spectrum": 9.876159501742025,
+      "top_mechanisms": {
+        "DNA/RNA_Interaction": "1095",
+        "Membrane_Disruption": "203",
+        "Enzyme_Inhibition": "178"
+      }
+    }
+  },
+  "sample_size": 1974
+}

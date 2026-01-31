@@ -1,0 +1,9 @@
+category,pathogen_specificity,fragment_id,fragment_smiles,molecular_weight,logp,tpsa,num_hbd,num_hba,avg_attribution,activity_rate_percent,highest_attribution_example,chemical_rationale
+dual_active,S.aureus + C.albicans,10428,C1=CC=C2NC(C3=CC=C(OC4=CC=C(C5=NC6=CC=CC=C6N5)C=C4)C=C3)=NC2=C1,,,,,,0.7616,100.0,CCC(C)NC(=N)C1=CC=C2NC(C3=CC=C(OC4=CC=C(C5=NC6=CC(C(=N)NC(C)CC)=CC=C6N5)C=C4)C=C3)=NC2=C1,Dual-pathogen active fragment (S.aureus + C.albicans) with balanced properties
+dual_active,S.aureus + E.coli,19042,C(/C=C1\NCCO1)CC1=CC=CC=C1,,,,,,0.7616,100.0,,Dual-pathogen active fragment (S.aureus + E.coli) with balanced properties
+dual_active,S.aureus + E.coli,18453,C1C=CCC1SC1=NN=CN1,,,,,,0.7616,100.0,,Dual-pathogen active fragment (S.aureus + E.coli) with balanced properties
+dual_active,S.aureus + E.coli,9126,C1=CC=C(CCCCCCCC2=CC=CC=C2)C=C1,,,,,,0.7616,100.0,,Dual-pathogen active fragment (S.aureus + E.coli) with balanced properties
+triple_active,broad_spectrum_triple,16,C1=CC=CC=C1,,,,,,,,,Triple-pathogen active fragment with optimal broad-spectrum properties
+triple_active,broad_spectrum_triple,135,C1C=CNC=C1,,,,,,,,,Triple-pathogen active fragment with optimal broad-spectrum properties
+triple_active,broad_spectrum_triple,353,C1=CC=NC=C1,,,,,,,,,Triple-pathogen active fragment with optimal broad-spectrum properties
+triple_active,broad_spectrum_triple,519,C1=CNC=C1,,,,,,,,,Triple-pathogen active fragment with optimal broad-spectrum properties

@@ -1,0 +1,177 @@
+{
+  "pathogen_specific": {
+    "LogP": {
+      "SA_vs_EC": {
+        "rule": "S. aureus fragments have higher LogP than E. coli",
+        "threshold": "3.00 \u00b1 1.61 vs 2.33 \u00b1 1.68",
+        "effect_size": 0.4152633302497205,
+        "p_value": 2.3728441531011e-15,
+        "fold_change": 1.2901693154998009
+      }
+    },
+    "TPSA": {
+      "SA_vs_EC": {
+        "rule": "E. coli fragments have higher TPSA than S. aureus",
+        "threshold": "42.17 \u00b1 23.47 vs 35.09 \u00b1 21.73",
+        "effect_size": -0.3210080859591666,
+        "p_value": 5.996533069765958e-10,
+        "fold_change": 0.832026753036937
+      }
+    },
+    "HBD": {
+      "SA_vs_CA": {
+        "rule": "S. aureus fragments have higher HBD than C. albicans",
+        "threshold": "1.05 \u00b1 1.10 vs 0.70 \u00b1 0.89",
+        "effect_size": 0.34441143149083603,
+        "p_value": 1.6028640592170293e-22,
+        "fold_change": 1.5122367626655793
+      },
+      "EC_vs_CA": {
+        "rule": "E. coli fragments have higher HBD than C. albicans",
+        "threshold": "1.33 \u00b1 1.10 vs 0.70 \u00b1 0.89",
+        "effect_size": 0.664933231280133,
+        "p_value": 8.400768259863505e-34,
+        "fold_change": 1.9176379176379175
+      }
+    },
+    "total_compounds": {
+      "EC_vs_CA": {
+        "rule": "C. albicans fragments have higher total_compounds than E. coli",
+        "threshold": "13.96 \u00b1 12.61 vs 9.75 \u00b1 8.58",
+        "effect_size": -0.36501116103198694,
+        "p_value": 5.2742633256595546e-30,
+        "fold_change": 0.698309429170073
+      }
+    }
+  },
+  "multi_pathogen": {
+    "broad_spectrum": {
+      "MW": {
+        "broad_spectrum_range": "16.00 - 548.73",
+        "optimal_mean": "215.50",
+        "complexity_requirement": "moderate"
+      },
+      "LogP": {
+        "broad_spectrum_range": "-3.29 - 9.25",
+        "optimal_mean": "2.57",
+        "complexity_requirement": "moderate"
+      },
+      "BertzCT": {
+        "broad_spectrum_range": "0.00 - 1858.06",
+        "optimal_mean": "456.58",
+        "complexity_requirement": "higher"
+      },
+      "NumAromaticRings": {
+        "broad_spectrum_range": "0.00 - 7.00",
+        "optimal_mean": "1.76",
+        "complexity_requirement": "moderate"
+      }
+    }
+  },
+  "property_thresholds": {
+    "SA": {
+      "MW": {
+        "optimal_range": "218.30 - 332.44",
+        "mean": "279.41",
+        "median": "273.41",
+        "std": "80.93"
+      },
+      "LogP": {
+        "optimal_range": "2.25 - 4.23",
+        "mean": "3.28",
+        "median": "3.21",
+        "std": "1.48"
+      },
+      "TPSA": {
+        "optimal_range": "17.30 - 43.08",
+        "mean": "32.08",
+        "median": "30.49",
+        "std": "18.34"
+      },
+      "HBA": {
+        "optimal_range": "2.00 - 4.00",
+        "mean": "3.14",
+        "median": "3.00",
+        "std": "1.65"
+      },
+      "HBD": {
+        "optimal_range": "0.00 - 1.00",
+        "mean": "0.91",
+        "median": "1.00",
+        "std": "0.92"
+      }
+    },
+    "EC": {
+      "MW": {
+        "optimal_range": "209.01 - 329.40",
+        "mean": "268.73",
+        "median": "259.84",
+        "std": "78.35"
+      },
+      "LogP": {
+        "optimal_range": "1.68 - 3.48",
+        "mean": "2.63",
+        "median": "2.64",
+        "std": "1.51"
+      },
+      "TPSA": {
+        "optimal_range": "24.66 - 50.28",
+        "mean": "37.69",
+        "median": "37.05",
+        "std": "17.82"
+      },
+      "HBA": {
+        "optimal_range": "2.00 - 5.00",
+        "mean": "3.58",
+        "median": "3.00",
+        "std": "1.60"
+      },
+      "HBD": {
+        "optimal_range": "0.00 - 2.00",
+        "mean": "1.19",
+        "median": "1.00",
+        "std": "0.96"
+      }
+    },
+    "CA": {
+      "MW": {
+        "optimal_range": "215.02 - 307.40",
+        "mean": "267.54",
+        "median": "260.82",
+        "std": "79.75"
+      },
+      "LogP": {
+        "optimal_range": "1.83 - 3.76",
+        "mean": "2.81",
+        "median": "2.88",
+        "std": "1.44"
+      },
+      "TPSA": {
+        "optimal_range": "21.26 - 51.24",
+        "mean": "37.11",
+        "median": "31.22",
+        "std": "23.48"
+      },
+      "HBA": {
+        "optimal_range": "2.00 - 5.00",
+        "mean": "3.58",
+        "median": "3.00",
+        "std": "2.24"
+      },
+      "HBD": {
+        "optimal_range": "0.00 - 1.00",
+        "mean": "0.63",
+        "median": "0.00",
+        "std": "0.84"
+      }
+    }
+  },
+  "statistical_evidence": {
+    "total_comparisons": 33,
+    "significant_comparisons": 23,
+    "large_effect_sizes": 0,
+    "method": "Mann-Whitney U test with Benjamini-Hochberg FDR correction",
+    "significance_threshold": 0.05,
+    "effect_size_threshold": 0.3
+  }
+}

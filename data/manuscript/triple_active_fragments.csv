@@ -1,0 +1,5 @@
+category,pathogen_specificity,fragment_id,fragment_smiles,molecular_weight,logp,tpsa,num_hbd,num_hba,avg_attribution,activity_rate_percent,highest_attribution_example,chemical_rationale
+triple_active,broad_spectrum_triple,16,C1=CC=CC=C1,,,,,,,,,Triple-pathogen active fragment with optimal broad-spectrum properties
+triple_active,broad_spectrum_triple,135,C1C=CNC=C1,,,,,,,,,Triple-pathogen active fragment with optimal broad-spectrum properties
+triple_active,broad_spectrum_triple,353,C1=CC=NC=C1,,,,,,,,,Triple-pathogen active fragment with optimal broad-spectrum properties
+triple_active,broad_spectrum_triple,519,C1=CNC=C1,,,,,,,,,Triple-pathogen active fragment with optimal broad-spectrum properties

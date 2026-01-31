@@ -1,0 +1,117 @@
+================================================================================
+ROBUST DUAL-NEGATIVE FRAGMENT ANALYSIS REPORT
+XAI-Derived Fragments with Adaptive Size-Effect Correction
+================================================================================
+
+NEGATIVE ANALYSIS METHODOLOGY
+----------------------------------------
+Approach: Adaptive permutation testing for NEGATIVE dual-activity patterns
+Weighting strategy selected: Compound Corrected
+Negative size-effect correction: Applied based on source negative compound counts
+Source negative compound validation: Passed consistency checks
+Permutations per test: 10,000
+Multiple testing correction: Benjamini-Hochberg FDR
+Effect size threshold: 0.3 (Cohen's d)
+Significance threshold: p < 0.05 (corrected)
+
+NEGATIVE DATA VALIDATION RESULTS
+----------------------------------------
+Source negative compound data provided:
+  SA+CA: 8851 dual-negative compounds
+  SA+EC: 10426 dual-negative compounds
+  CA+EC: 10901 dual-negative compounds
+
+Negative fragment extraction efficiency:
+  CA+EC: 0.029 fragments per negative compound
+  SA+CA: 0.025 fragments per negative compound
+  SA+EC: 0.100 fragments per negative compound
+Negative efficiency range: 0.025 to 0.100 (3.9x variation)
+
+
+DUAL-NEGATIVE DATASET OVERVIEW
+----------------------------------------
+Total dual-NEGATIVE fragments: 1575
+
+C.albicans + E.coli NEGATIVE: 312 fragments
+  Negative targets: Fungi + Gram-
+  Excludes: S.aureus (S.aureus)
+  Average inactivity rate: 100.0%
+  Source negative compounds: 10901
+  Extraction efficiency: 0.029 fragments/compound
+
+S.aureus + C.albicans NEGATIVE: 225 fragments
+  Negative targets: Gram+ + Fungi
+  Excludes: E.coli (E.coli)
+  Average inactivity rate: 99.6%
+  Source negative compounds: 8851
+  Extraction efficiency: 0.025 fragments/compound
+
+S.aureus + E.coli NEGATIVE: 1038 fragments
+  Negative targets: Gram+ + Gram-
+  Excludes: C.albicans (C.albicans)
+  Average inactivity rate: 99.6%
+  Source negative compounds: 10426
+  Extraction efficiency: 0.100 fragments/compound
+
+DUAL-NEGATIVE COMPARISON RESULTS
+----------------------------------------
+Total pairwise tests performed: 105
+Statistically significant NEGATIVE patterns: 44
+False discovery rate: 61.0%
+Weighting strategy: compound_corrected
+
+VALIDATED DUAL-NEGATIVE DIFFERENCES:
+------------------------------
+
+CA+EC vs SA+CA:
+  aromatic heterocycles is 4.20x higher in CA+EC vs SA+CA (negative size-corrected means)
+    Effect: 0.762, p: 0.00e+00, Context: Gram- vs Gram+ negative (both with Fungi)
+  num saturated rings is 0.29x lower in SA+CA vs CA+EC (negative size-corrected means)
+    Effect: 0.741, p: 0.00e+00, Context: Gram- vs Gram+ negative (both with Fungi)
+  num rings is 0.81x lower in SA+CA vs CA+EC (negative size-corrected means)
+    Effect: 0.580, p: 0.00e+00, Context: Gram- vs Gram+ negative (both with Fungi)
+
+CA+EC vs SA+EC:
+  aromatic heterocycles is 3.84x higher in CA+EC vs SA+EC (negative size-corrected means)
+    Effect: 0.857, p: 0.00e+00, Context: Fungi vs Gram+ negative (both with Gram-)
+  bertz complexity is 1.37x higher in CA+EC vs SA+EC (negative size-corrected means)
+    Effect: 0.676, p: 0.00e+00, Context: Fungi vs Gram+ negative (both with Gram-)
+  num rings is 1.25x higher in CA+EC vs SA+EC (negative size-corrected means)
+    Effect: 0.592, p: 0.00e+00, Context: Fungi vs Gram+ negative (both with Gram-)
+
+SA+CA vs SA+EC:
+  num rings is 1.55x higher in SA+CA vs SA+EC (negative size-corrected means)
+    Effect: 1.123, p: 0.00e+00, Context: Fungi vs Gram- negative (both with Gram+)
+  bertz complexity is 1.60x higher in SA+CA vs SA+EC (negative size-corrected means)
+    Effect: 0.906, p: 0.00e+00, Context: Fungi vs Gram- negative (both with Gram+)
+  molecular weight is 1.27x higher in SA+CA vs SA+EC (negative size-corrected means)
+    Effect: 0.777, p: 0.00e+00, Context: Fungi vs Gram- negative (both with Gram+)
+
+
+DUAL-NEGATIVE DESIGN INSIGHTS
+----------------------------------------
+Based on negative size-effect corrected analysis:
+
+NEGATIVE PATTERN INTERPRETATION:
+These fragments show consistent NEGATIVE activity, indicating:
+- Chemical features that PREVENT activity against specific pathogen pairs
+- Structural motifs to AVOID in dual-activity compound design
+- Selectivity patterns that distinguish pathogen vulnerabilities
+
+NEGATIVE WEIGHTING STRATEGY IMPACT
+------------------------------
+Negative size-effect correction successfully applied:
+- Accounts for unequal source negative compound populations
+- Results reflect true negative chemical selectivity patterns
+- Unbiased insights for rational compound design
+
+DUAL-NEGATIVE DRUG DESIGN RECOMMENDATIONS
+--------------------------------------------------
+1. AVOID features identified in negative patterns
+2. Use negative insights to guide positive fragment selection
+3. Consider pathogen-specific vulnerabilities revealed by negative patterns
+4. Combine with positive dual-activity data for comprehensive design
+5. Apply negative size-effect corrections in future analyses
+
+Note: Analysis based on 1575 total dual-NEGATIVE fragments
+with robust statistical validation and adaptive size-effect correction.

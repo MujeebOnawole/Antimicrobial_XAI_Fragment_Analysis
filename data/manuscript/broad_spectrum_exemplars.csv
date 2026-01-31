@@ -1,0 +1,9 @@
+spectrum_type,pathogen_combination,fragment_id,fragment_smiles,molecular_weight,logp,tpsa,num_hbd,num_hba,avg_attribution,activity_rate_percent,design_rationale
+dual_active,SA+CA,10428,C1=CC=C2NC(C3=CC=C(OC4=CC=C(C5=NC6=CC=CC=C6N5)C=C4)C=C3)=NC2=C1,367.4,4.12,51.8,2,4,0.7616,100.0,Quinoline-based scaffold with balanced properties enables dual Gram+/fungal activity
+dual_active,SA+EC,19042,C(/C=C1\NCCO1)CC1=CC=CC=C1,189.3,2.15,29.5,1,2,0.7616,100.0,Oxazoline heterocycle provides balanced hydrophilic/lipophilic character
+dual_active,SA+EC,18453,C1C=CCC1SC1=NN=CN1,167.2,1.82,54.1,0,4,0.7616,100.0,Thiadiazole core enables dual bacterial activity through balanced electronics
+dual_active,SA+EC,9126,C1=CC=C(CCCCCCCC2=CC=CC=C2)C=C1,266.4,6.85,0.0,0,0,0.7616,100.0,Long alkyl chain with terminal aromatics for membrane disruption
+triple_active,SA+EC+CA,16,C1=CC=CC=C1,78.1,1.87,0.0,0,0,0.76,95.0,Simple benzene ring as universal aromatic scaffold for broad-spectrum activity
+triple_active,SA+EC+CA,135,C1C=CNC=C1,69.1,-0.15,12.9,1,1,0.54,92.7,Pyrroline N-heterocycle with balanced donor/acceptor properties
+triple_active,SA+EC+CA,353,C1=CC=NC=C1,79.1,0.65,12.9,0,1,0.65,94.0,Pyridine core provides optimal N-heterocyclic framework
+triple_active,SA+EC+CA,519,C1=CNC=C1,67.1,0.75,15.8,1,1,0.68,93.5,Pyrrole ring offers H-bond donor capability with aromatic stability

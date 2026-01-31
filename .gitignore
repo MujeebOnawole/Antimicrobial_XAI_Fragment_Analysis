@@ -1,0 +1,34 @@
+# Claude Code local settings
+.claude/
+
+# Archived/old files (not tracked)
+old/
+
+# Large raw CSV files (use .zip versions instead)
+raw_data/*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary/dated files
+*-[0-9]*.csv

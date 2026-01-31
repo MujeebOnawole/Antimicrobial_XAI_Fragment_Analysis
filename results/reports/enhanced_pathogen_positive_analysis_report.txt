@@ -1,0 +1,86 @@
+================================================================================
+ENHANCED PATHOGEN-SPECIFIC FRAGMENT ANALYSIS REPORT
+================================================================================
+
+EXECUTIVE SUMMARY
+----------------------------------------
+Total fragments analyzed: 4103
+Pathogens: SA (Gram+), EC (Gram-), CA (Fungi)
+Physicochemical properties extracted: 31
+Significant patterns discovered: 9
+
+FRAGMENT DISTRIBUTION
+----------------------------------------
+SA (Gram+): 2332 total (1986 scaffolds, 346 substituents)
+EC (Gram-): 537 total (452 scaffolds, 85 substituents)
+CA (Fungi): 1234 total (1100 scaffolds, 134 substituents)
+
+
+PHYSICOCHEMICAL PROPERTY SUMMARY
+----------------------------------------
+
+Molecular Weight:
+  SA (Gram+): Mean=268.20, Median=263.29, Std=84.99 (n=2332)
+  EC (Gram-): Mean=256.91, Median=249.38, Std=81.94 (n=537)
+  CA (Fungi): Mean=260.53, Median=254.32, Std=80.90 (n=1234)
+
+Logp:
+  SA (Gram+): Mean=3.00, Median=2.94, Std=1.61 (n=2332)
+  EC (Gram-): Mean=2.33, Median=2.40, Std=1.68 (n=537)
+  CA (Fungi): Mean=2.69, Median=2.76, Std=1.48 (n=1234)
+
+Tpsa:
+  SA (Gram+): Mean=35.09, Median=32.56, Std=21.73 (n=2332)
+  EC (Gram-): Mean=42.17, Median=38.92, Std=23.47 (n=537)
+  CA (Fungi): Mean=38.02, Median=33.95, Std=23.83 (n=1234)
+
+Num Rings:
+  SA (Gram+): Mean=3.12, Median=3.00, Std=1.31 (n=2332)
+  EC (Gram-): Mean=2.87, Median=3.00, Std=1.22 (n=537)
+  CA (Fungi): Mean=3.03, Median=3.00, Std=1.17 (n=1234)
+
+Num Aromatic Rings:
+  SA (Gram+): Mean=1.83, Median=2.00, Std=1.09 (n=2332)
+  EC (Gram-): Mean=1.72, Median=2.00, Std=1.05 (n=537)
+  CA (Fungi): Mean=1.84, Median=2.00, Std=1.25 (n=1234)
+
+
+SIGNIFICANT PHYSICOCHEMICAL DIFFERENCES
+----------------------------------------
+
+SA (Gram+) - Distinctive Features:
+  Aliphatic Hydroxyl: 2.47x higher than others (p=0.017)
+  Halogen Count: 1.98x higher than others (p=0.026)
+  Halogen Subst: 1.98x higher than others (p=0.026)
+  Carboxyl: 1.95x higher than others (p=0.034)
+  Aromatic Hydroxyl: 1.71x higher than others (p=0.062)
+  Formal Charge: 1.57x higher than others (p=0.001)
+
+EC (Gram-) - Distinctive Features:
+  Amide: 2.36x higher than others (p=0.000)
+  Sulfur Count: 1.63x higher than others (p=0.000)
+
+CA (Fungi) - Distinctive Features:
+  Ester: 2.52x higher than others (p=0.037)
+
+
+DESIGN RECOMMENDATIONS
+----------------------------------------
+
+SA (Gram+) Optimization Guidelines:
+  - Target MW range: 206 - 325 Da
+  - Target LogP range: 1.9 - 4.1
+  - Optimal ring count: 3 rings
+  - Key feature: Increase aliphatic hydroxyl (2.468160377358491x difference)
+
+EC (Gram-) Optimization Guidelines:
+  - Target MW range: 196 - 317 Da
+  - Target LogP range: 1.3 - 3.4
+  - Optimal ring count: 3 rings
+  - Key feature: Increase amide (2.3602117969083034x difference)
+
+CA (Fungi) Optimization Guidelines:
+  - Target MW range: 207 - 303 Da
+  - Target LogP range: 1.7 - 3.7
+  - Optimal ring count: 3 rings
+  - Key feature: Increase ester (2.5187061048082118x difference)

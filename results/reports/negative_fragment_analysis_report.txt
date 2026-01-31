@@ -1,0 +1,84 @@
+================================================================================
+NEGATIVE FRAGMENT PATHOGEN ANALYSIS
+XAI-Derived Activity-Killing Features - WHAT TO AVOID
+================================================================================
+
+STATISTICAL METHODOLOGY
+----------------------------------------
+Approach: Permutation tests using ALL negative fragments
+Purpose: Identify features that consistently KILL antimicrobial activity
+Testing bias correction: Weighted by original dataset sizes
+Permutations per test: 10,000
+Multiple testing correction: Benjamini-Hochberg FDR
+Effect size threshold: 0.3 (Cohen's d)
+Significance threshold: p < 0.05 (corrected)
+
+ORIGINAL DATASET CONTEXT
+----------------------------------------
+Compounds tested in original screens:
+  SA: 54,277 compounds
+  EC: 44,920 compounds
+  CA: 28,476 compounds
+
+XAI-negative fragments extracted (features that kill activity):
+  SA: 398 negative fragments (0.733% negative hit rate)
+  EC: 161 negative fragments (0.358% negative hit rate)
+  CA: 227 negative fragments (0.797% negative hit rate)
+
+
+NEGATIVE FRAGMENT PERMUTATION RESULTS
+----------------------------------------
+Total pairwise tests performed: 93
+Statistically significant negative patterns: 22
+False discovery rate: 37.6%
+
+VALIDATED FEATURES TO AVOID:
+------------------------------
+AVOID num aliphatic rings for EC: 1.67x more problematic than for CA (effect: 0.564, p: 0.00e+00)
+AVOID num hba for CA: 0.72x more problematic than for SA (effect: 0.556, p: 0.00e+00)
+AVOID fraction csp3 for EC: 1.51x more problematic than for CA (effect: 0.508, p: 0.00e+00)
+AVOID num saturated rings for SA: 2.40x more problematic than for CA (effect: 0.502, p: 0.00e+00)
+AVOID num aliphatic rings for SA: 1.72x more problematic than for CA (effect: 0.499, p: 0.00e+00)
+AVOID fraction csp3 for SA: 1.54x more problematic than for CA (effect: 0.490, p: 0.00e+00)
+AVOID num heteroatoms for CA: 0.76x more problematic than for SA (effect: 0.481, p: 0.00e+00)
+AVOID nitrogen count for CA: 0.70x more problematic than for SA (effect: 0.473, p: 0.00e+00)
+AVOID amine for CA: 0.70x more problematic than for SA (effect: 0.473, p: 0.00e+00)
+AVOID num saturated rings for EC: 1.88x more problematic than for CA (effect: 0.446, p: 0.00e+00)
+
+
+DESIGN RECOMMENDATIONS - FEATURES TO AVOID
+--------------------------------------------------
+Based on permutation-validated negative patterns:
+
+SA (Gram+) - Features to AVOID:
+  - MINIMIZE num saturated rings: 2.40x more detrimental than for CA
+  - MINIMIZE num aliphatic rings: 1.72x more detrimental than for CA
+  - MINIMIZE fraction csp3: 1.54x more detrimental than for CA
+
+EC (Gram-) - Features to AVOID:
+  - MINIMIZE num aliphatic rings: 1.67x more detrimental than for CA
+  - MINIMIZE fraction csp3: 1.51x more detrimental than for CA
+  - MINIMIZE num saturated rings: 1.88x more detrimental than for CA
+
+CA (Fungi) - Features to AVOID:
+  - MINIMIZE num hba: 0.72x more detrimental than for SA
+  - MINIMIZE num heteroatoms: 0.76x more detrimental than for SA
+  - MINIMIZE nitrogen count: 0.70x more detrimental than for SA
+
+
+INTEGRATED DESIGN STRATEGY:
+------------------------------
+To design effective antimicrobials:
+1. Use POSITIVE fragment analysis to identify features to ENHANCE
+2. Use this NEGATIVE fragment analysis to identify features to AVOID
+3. Balance both insights for optimal pathogen-specific design
+
+Example strategic approach:
+For SA: Enhance [positive features] while avoiding [negative features]
+For EC: Enhance [positive features] while avoiding [negative features]
+For CA: Enhance [positive features] while avoiding [negative features]
+
+Note: These results use ALL 786 XAI-derived negative fragments
+and account for original testing bias through permutation weighting.
+
+** USE WITH POSITIVE FRAGMENT ANALYSIS FOR COMPLETE PICTURE **

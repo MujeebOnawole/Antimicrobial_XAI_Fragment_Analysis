@@ -1,0 +1,66 @@
+FIGURE CAPTIONS FOR EXEMPLAR COMPOUND RADAR PLOTS
+======================================================================
+
+======================================================================
+CHEMBL4548986 - S. aureus exemplar
+======================================================================
+
+Figure X.X. Physicochemical profile of S. aureus exemplar.
+
+(a) Molecular structure of CHEMBL4548986 (MW 305.3 Da, LogP 3.27, TPSA 51.6 A^2, HBD 0, HBA 4, Rings 4).
+
+(b) Radar plot comparing compound properties (solid colored line) to SELECT-G+
+acceptable range (shaded zone representing mean +/- 1 standard deviation for SA
+positive fragments, N=2,332).
+
+Property axes scaled to standard ranges: LogP (0-6), MW (0-500 Da), TPSA (0-150 A^2),
+HBD (0-5), HBA (0-10), Total Rings (0-6). Percentages indicate position within each
+property's scale.
+
+SELECT-G+ ranges (mean +/- SD): LogP: 3.0 +/- 1.6, MW: 268.2 +/- 85.0, TPSA: 35.1 +/- 21.7, HBD: 1.1 +/- 1.1, HBA: 3.2 +/- 1.7, Rings: 1.8 +/- 1.1
+
+Properties within acceptable range: LogP, MW, TPSA, HBD, HBA
+Properties outside acceptable range: Rings
+
+======================================================================
+CHEMBL4203270 - E. coli exemplar
+======================================================================
+
+Figure X.X. Physicochemical profile of E. coli exemplar.
+
+(a) Molecular structure of CHEMBL4203270 (MW 383.4 Da, LogP 1.93, TPSA 107.8 A^2, HBD 3, HBA 8, Rings 4).
+
+(b) Radar plot comparing compound properties (solid colored line) to SELECT-G-
+acceptable range (shaded zone representing mean +/- 1 standard deviation for EC
+positive fragments, N=537).
+
+Property axes scaled to standard ranges: LogP (0-6), MW (0-500 Da), TPSA (0-150 A^2),
+HBD (0-5), HBA (0-10), Total Rings (0-6). Percentages indicate position within each
+property's scale.
+
+SELECT-G- ranges (mean +/- SD): LogP: 2.3 +/- 1.7, MW: 256.9 +/- 81.9, TPSA: 42.2 +/- 23.5, HBD: 1.3 +/- 1.1, HBA: 3.7 +/- 1.7, Rings: 2.9 +/- 1.2
+
+Properties within acceptable range: LogP, Rings
+Properties outside acceptable range: MW, TPSA, HBD, HBA
+
+======================================================================
+CS000245342 - C. albicans exemplar
+======================================================================
+
+Figure X.X. Physicochemical profile of C. albicans exemplar.
+
+(a) Molecular structure of CS000245342 (MW 261.4 Da, LogP 2.93, TPSA 34.2 A^2, HBD 0, HBA 4, Rings 3).
+
+(b) Radar plot comparing compound properties (solid colored line) to SELECT-CA
+acceptable range (shaded zone representing mean +/- 1 standard deviation for CA
+positive fragments, N=1,234).
+
+Property axes scaled to standard ranges: LogP (0-6), MW (0-500 Da), TPSA (0-150 A^2),
+HBD (0-5), HBA (0-10), Total Rings (0-6). Percentages indicate position within each
+property's scale.
+
+SELECT-CA ranges (mean +/- SD): LogP: 2.7 +/- 1.5, MW: 260.5 +/- 80.9, TPSA: 38.0 +/- 23.8, HBD: 0.7 +/- 0.9, HBA: 3.5 +/- 2.2, Rings: 3.0 +/- 1.1
+
+Properties within acceptable range: LogP, MW, TPSA, HBD, HBA, Rings
+Properties outside acceptable range: None
+

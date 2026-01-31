@@ -1,0 +1,21 @@
+ChEMBL_ID,Combination,Pathogens,Fragment_Rank,Fragment_ID,Fragment_Type,Fragment_SMILES,Attribution_Score,Fragment_MW,Fragment_LogP,Fragment_Rings,Source_Pathogen
+CHEMBL2178320,SA+EC Dual,SA+EC,1,scaffold_2,scaffold,C1=CC=C(OC2=CC=CC=N2)C=C1,0.7616,171.2,2.87,2,SA
+CHEMBL2178320,SA+EC Dual,SA+EC,2,scaffold_1,scaffold,C1=CC=NC=C1,0.6285,79.1,1.08,1,EC
+CHEMBL2178320,SA+EC Dual,SA+EC,3,scaffold_0,scaffold,C1=CC=CC=C1,0.5654,78.1,1.69,1,EC
+CHEMBL2178320,SA+EC Dual,SA+EC,4,substituent_2_0,substituent,O,0.3808,18.0,-0.82,0,SA
+CHEMBL2178320,SA+EC Dual,SA+EC,5,substituent_2_1,substituent,CC(F)(F)F,0.3808,84.0,1.57,0,SA
+CHEMBL5207371,SA+CA Dual,SA+CA,1,scaffold_1,scaffold,C1=CC=CC=C1,0.7616,78.1,1.69,1,SA
+CHEMBL5207371,SA+CA Dual,SA+CA,2,scaffold_0,scaffold,C1=CNCC=N1,0.7616,82.1,0.13,1,CA
+CHEMBL5207371,SA+CA Dual,SA+CA,3,substituent_1_0,substituent,N-C(CBr)-C(=O)-N,0.3808,167.0,-0.81,0,SA
+CHEMBL5207371,SA+CA Dual,SA+CA,4,substituent_1_1,substituent,FC(F)F,0.3808,70.0,1.18,0,SA
+CHEMBL5207371,SA+CA Dual,SA+CA,5,substituent_0_0,substituent,O,0.3808,18.0,-0.82,0,CA
+CHEMBL5409101,EC+CA Dual,EC+CA,1,scaffold_4,scaffold,C1CCCC1PC1=CC=CC=C1,0.7616,178.2,2.93,2,EC
+CHEMBL5409101,EC+CA Dual,EC+CA,2,scaffold_6,scaffold,C1CCCC1P(C1=CC=CC=C1)C1=CC=CC=C1,0.7456,254.3,4.06,3,CA
+CHEMBL5409101,EC+CA Dual,EC+CA,3,scaffold_3,scaffold,C1=CC=C(PC2=CC=CC=C2)C=C1,0.7,186.2,2.32,2,EC
+CHEMBL5409101,EC+CA Dual,EC+CA,4,scaffold_2,scaffold,C1CCCC1,0.6898,70.1,1.95,1,CA
+CHEMBL5409101,EC+CA Dual,EC+CA,5,substituent_4_1,substituent,C1=CC=CC=C1,0.3808,78.1,1.69,1,EC
+CHEMBL2297203,Triple Active,SA+EC+CA,1,scaffold_2,scaffold,C(/C=C/C1=CC=CN1)C1=COC=C1,0.7616,173.2,2.86,2,EC
+CHEMBL2297203,Triple Active,SA+EC+CA,2,scaffold_1,scaffold,C1=CNC=C1,0.6982,67.1,1.01,1,EC
+CHEMBL2297203,Triple Active,SA+EC+CA,3,scaffold_0,scaffold,C1=COC=C1,0.5366,68.1,1.28,1,SA
+CHEMBL2297203,Triple Active,SA+EC+CA,4,substituent_2_0,substituent,C,0.3808,16.0,0.64,0,EC
+CHEMBL2297203,Triple Active,SA+EC+CA,5,substituent_2_1,substituent,O,0.3808,18.0,-0.82,0,EC

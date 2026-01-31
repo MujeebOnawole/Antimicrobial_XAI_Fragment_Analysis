@@ -1,0 +1,8 @@
+ChEMBL_ID,Category,Pathogen,SELECT_Rule,SMILES,MIC_ug_mL,Activity_uM,MW,LogP,TPSA,HBD,HBA,RotBonds,Rings,Fsp3,SA_Pred,EC_Pred,CA_Pred,Notes
+CHEMBL4536843,Single,S. aureus (G+),SELECT-G+,CC(C)[C@@H]1O/C(=C/C(=O)CCC2=CC=CC=C2)NC1=O,8.0,29.3,273.3,2.2,55.4,1,3,5,2,0.38,0.994,-,-,Correctly predicted active
+CHEMBL369493,Single,E. coli (G-),SELECT-G-,CCCS(=O)(=O)N1C=CC2=C(SC(CC)=C2)B1O,2.5,8.8,285.2,1.02,57.6,1,4,4,2,0.45,-,0.922,-,Correctly predicted active
+CHEMBL4277673,Single,C. albicans,SELECT-CA,FC1=CC=C2SCC(CN3C=NC=N3)=C(Cl)C2=C1,4.0,14.2,281.7,3.17,30.7,0,4,2,3,0.17,-,-,0.989,Correctly predicted active
+CHEMBL2178320,Dual,SA+EC,SELECT-G+/G-,"OC1=CC(CC(F)(F)F)=CC=C1OC1=CC=CC(F)=N1",0.25 (SA) / 4.0 (EC),0.9 (SA) / 13.9 (EC),287.2,3.82,42.4,1,3,3,2,0.15,0.985,0.916,-,Correctly predicted dual-active
+CHEMBL5207371,Dual,SA+CA,SELECT-G+/CA,"O=C1NC2=CC=C(C(F)(F)F)C=C2N=C1CBr",31.2 (SA) / 31.2 (CA),101.6 (SA) / 101.6 (CA),307.1,2.84,45.8,1,2,1,2,0.2,0.692,-,0.809,Correctly predicted dual-active
+CHEMBL5409101,Dual,EC+CA,SELECT-G-/CA,"O=P(C1=CC=CC=C1)(C1=CC=CC=C1)C1CCC/C1=N\O",0.1 (EC) / 0.1 (CA),0.3 (EC) / 0.3 (CA),299.3,3.38,49.7,1,3,3,3,0.24,-,0.953,0.949,Correctly predicted dual-active
+CHEMBL2297203,Triple,SA+EC+CA,Broad-spectrum,CC1=CC(C(=O)/C=C/C2=CC=CN2)=C(C)O1,30.0 (SA) / 40.0 (EC) / 30.0 (CA),139.4 (SA) / 185.8 (EC) / 139.4 (CA),215.3,3.12,46.0,1,2,3,2,0.15,0.797,0.918,0.976,All predictions above threshold - correctly predicted triple-active
